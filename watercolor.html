@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watercolor | Artist Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="index.html">Artist Name</a>
+        <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">☰</button>
+      </div>
+      <nav class="site-nav" id="site-nav" data-nav-menu>
+        <a href="fiber.html">Fiber Art</a>
+        <a href="metal.html">Metal Art</a>
+        <a class="active" href="watercolor.html">Watercolor</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Watercolor</h1>
+      <section class="gallery-grid" aria-label="Watercolor gallery">
+        <figure class="gallery-item short">
+          <a data-lightbox-link data-title="Quiet Current" href="assets/images/watercolor/watercolor-1.svg"><img loading="lazy" src="assets/images/watercolor/watercolor-1.svg" alt="Quiet Current" /></a>
+          <figcaption>Quiet Current · 2023 · Watercolor on paper</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <a data-lightbox-link data-title="Moss Air" href="assets/images/watercolor/watercolor-2.svg"><img loading="lazy" src="assets/images/watercolor/watercolor-2.svg" alt="Moss Air" /></a>
+          <figcaption>Moss Air · 2024 · Watercolor on paper</figcaption>
+        </figure>
+        <figure class="gallery-item tall">
+          <a data-lightbox-link data-title="Northern Wash" href="assets/images/watercolor/watercolor-3.svg"><img loading="lazy" src="assets/images/watercolor/watercolor-3.svg" alt="Northern Wash" /></a>
+          <figcaption>Northern Wash · 2025 · Watercolor on paper</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <div class="lightbox" data-lightbox aria-hidden="true">
+      <button class="lightbox-close" data-lightbox-close aria-label="Close image">Close</button>
+      <img data-lightbox-image alt="" />
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiber Art | Artist Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="index.html">Artist Name</a>
+        <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">☰</button>
+      </div>
+      <nav class="site-nav" id="site-nav" data-nav-menu>
+        <a class="active" href="fiber.html">Fiber Art</a>
+        <a href="metal.html">Metal Art</a>
+        <a href="watercolor.html">Watercolor</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Fiber Art</h1>
+      <section class="gallery-grid" aria-label="Fiber art gallery">
+        <figure class="gallery-item tall">
+          <a data-lightbox-link data-title="Thread Study I" href="assets/images/fiber/fiber-1.svg"><img loading="lazy" src="assets/images/fiber/fiber-1.svg" alt="Thread Study I" /></a>
+          <figcaption>Thread Study I · 2024 · Wool & linen</figcaption>
+        </figure>
+        <figure class="gallery-item short">
+          <a data-lightbox-link data-title="Loom Field" href="assets/images/fiber/fiber-2.svg"><img loading="lazy" src="assets/images/fiber/fiber-2.svg" alt="Loom Field" /></a>
+          <figcaption>Loom Field · 2025 · Cotton</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <a data-lightbox-link data-title="Woven Quiet" href="assets/images/fiber/fiber-3.svg"><img loading="lazy" src="assets/images/fiber/fiber-3.svg" alt="Woven Quiet" /></a>
+          <figcaption>Woven Quiet · 2023 · Mixed fiber</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <div class="lightbox" data-lightbox aria-hidden="true">
+      <button class="lightbox-close" data-lightbox-close aria-label="Close image">Close</button>
+      <img data-lightbox-image alt="" />
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
