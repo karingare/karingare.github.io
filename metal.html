@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metal Art | Artist Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="index.html">Artist Name</a>
+        <button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="site-nav">☰</button>
+      </div>
+      <nav class="site-nav" id="site-nav" data-nav-menu>
+        <a href="fiber.html">Fiber Art</a>
+        <a class="active" href="metal.html">Metal Art</a>
+        <a href="watercolor.html">Watercolor</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Metal Art</h1>
+      <section class="gallery-grid" aria-label="Metal art gallery">
+        <figure class="gallery-item">
+          <a data-lightbox-link data-title="Arc Form" href="assets/images/metal/metal-1.svg"><img loading="lazy" src="assets/images/metal/metal-1.svg" alt="Arc Form" /></a>
+          <figcaption>Arc Form · 2025 · Steel</figcaption>
+        </figure>
+        <figure class="gallery-item tall">
+          <a data-lightbox-link data-title="Oxide Line" href="assets/images/metal/metal-2.svg"><img loading="lazy" src="assets/images/metal/metal-2.svg" alt="Oxide Line" /></a>
+          <figcaption>Oxide Line · 2024 · Patinated iron</figcaption>
+        </figure>
+        <figure class="gallery-item short">
+          <a data-lightbox-link data-title="Bent Light" href="assets/images/metal/metal-3.svg"><img loading="lazy" src="assets/images/metal/metal-3.svg" alt="Bent Light" /></a>
+          <figcaption>Bent Light · 2023 · Aluminum</figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <div class="lightbox" data-lightbox aria-hidden="true">
+      <button class="lightbox-close" data-lightbox-close aria-label="Close image">Close</button>
+      <img data-lightbox-image alt="" />
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
